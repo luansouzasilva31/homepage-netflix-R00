@@ -1,0 +1,232 @@
+.body{
+    width: 100%;
+    min-height: 100vh;  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;/*todo conteudo interno justificado*/
+    align-items: center;
+    background-image: url('./img/background-image.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+.body::after{
+    content: "";
+    background-image: url('./img/background-image.jpg');
+    opacity: 0.90;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+    position: absolute;
+    z-index: -1;
+}
+*/
+
+.main{
+    width: 27rem;
+    height: 33rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-netflix{
+    width: 13.42%;
+    height: 13.5%;
+    margin-left: 1.7%;
+    margin-top: -1%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url('./img/logo-netflix.png');
+}
+
+.central{
+    justify-content: left;
+    align-items: center;
+    width: 82.5%;
+    height: 110%;
+    padding: 3rem;
+    padding-top: 0;
+    background-color: rgb(0, 0, 0, 0.88);
+    border-radius: 0.2rem;
+    position: relative;
+    top: 4.25rem;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.entrar-nome{
+    font-family: helvetica;
+    font-weight: 780;
+    font-size: 32px;
+    color: white;
+}
+
+.loginsenha{
+    display: flex;
+    width: 20rem;
+    height: 3rem;
+    font-size: 16px;
+    font-family: helvetica;
+
+    border-radius: 0.3rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding-left: 1.1rem;
+    background-color: #333333;
+}
+
+.loginsenha p{
+    color: #8c8c8c;
+}
+
+.entrar-botao{
+    width: 21rem;
+    height: 3rem;
+    display: flex;
+    margin-top: 2.5rem;
+
+    border-radius: 0.3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: #e50914;
+}
+
+.entrar-botao a{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+.remember-and-help{
+    width: 21rem;
+    height: auto;
+    display: inline-flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.remember-me{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 0;
+    display: inline-flex;
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+    background-image: url('./img/checkbox.png');
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.remember-me p{
+    font-family: helvetica;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.help{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.help a{
+    text-decoration: none;
+    margin: auto;
+    color: #b3b3b3;
+}
+
+
+.facebook{
+    display: inline-flex;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 45px;
+    justify-content: left;
+    text-align: center;
+}
+
+.facelogo{
+    background-image: url('./img/facebook-logo.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    margin-left:0;
+    margin-right: 10px;
+    padding-left: 0;
+}
+
+.facebook a{
+    text-decoration: none;
+    margin:auto;
+    color: #737373;
+    font-family: helvetica;
+    font-size: 13px;
+}
+
+.new-here-div{
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: left;
+    display: flex;
+}
+
+.new-here-p{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+.new-here-span:nth-child(1){
+    margin: auto;
+    margin-left: 0;
+    color: #737373;
+    margin-right:3px;
+}
+
+.new-here-span:nth-child(2) a{
+    margin:auto;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-p{
+    text-align: justify;
+    padding-right: 16%;
+    padding-left: 0;
+}
+
+.footer-span{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-family: helvetica;
+}
+
+.footer-span:nth-child(2) a{
+    color: #0071eb;
+    text-decoration: none;
+}
